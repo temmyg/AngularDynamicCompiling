@@ -1,0 +1,17 @@
+<html>
+<head>
+<script src="../node_modules/jquery/dist/jquery.js"></script>
+<script src="../node_modules/angular/angular.js"></script>
+<script src="index.js"></script>
+</head>
+<body>
+	<div id="container" ng-controller="Controller">  
+	<!-- <div id="container"  ng-controller="Controller">  works with angular.bootstrap() -->
+		<input ng-model="user.name" type="text" />
+		<div>first user {{user.name}}</div>
+	</div>
+	<button id="compile"> Compile </button>
+	<button id="insert">Insert</button>
+	
+</body>
+</html>
